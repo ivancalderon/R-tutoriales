@@ -29,3 +29,4 @@ plot = (ggplot(df, aes(x=factor(reorder(Codigo, Pct_acumulado)),
       + theme(axis.text=element_text(size=6)))
 
 plot
+# fin del archivo                                    
