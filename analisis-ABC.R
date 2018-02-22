@@ -1,8 +1,8 @@
 # Cargar_datos ------------------------------------------------------------
 # No olvides cambiar tu directorio de trabajo a la carpeta que contiene
 # el archivo de Excel que vas a analizar.
-library("XLConnect")
-df = readWorksheetFromFile("ABC_Analysis.xlsx",
+library(readxl)
+df = read_excel("ABC_Analysis.xlsx",
                            sheet=1)
 
 # Cálculos ----------------------------------------------------------------
